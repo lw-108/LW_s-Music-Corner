@@ -1,0 +1,36 @@
+QMainWindow {
+    background-color: #1e1e1e;
+}
+
+QPushButton {
+    background-color: #2d2d2d;
+    border: none;
+    padding: 8px;
+    border-radius: 6px;
+    color: white;
+}
+
+QPushButton:hover {
+    background-color: #3a3a3a;
+}
+
+QSlider::groove:horizontal {
+    height: 6px;
+    background: #444;
+}
+
+QSlider::handle:horizontal {
+    background: #00bcd4;
+    width: 12px;
+    margin: -5px 0;
+    border-radius: 6px;
+}
+
+QListWidget {
+    background-color: #252526;
+    color: white;
+}
+
+QLabel {
+    color: white;
+}
